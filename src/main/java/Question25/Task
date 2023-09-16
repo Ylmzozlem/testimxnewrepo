@@ -1,0 +1,1 @@
+Create a Java class Person with attributes name, age, and a constructor to initialize them. Implement a method to check if the person is an adult (age >= 18).

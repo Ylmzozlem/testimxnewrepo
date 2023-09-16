@@ -1,0 +1,1 @@
+Create a Java class CreditScore with an attribute score and a method to check if the credit score is good (score >= 700).
