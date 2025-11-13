@@ -15,6 +15,11 @@ public class Q4 {
         System.out.println(obj.b);
         System.out.println(obj.sayı);
 
+        System.out.println(obj.i);
+        System.out.println(obj.name);
+        System.out.println(obj.b);
+        System.out.println(obj.sayı);
+
     }
 }
 

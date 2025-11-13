@@ -31,6 +31,12 @@ public class Challenge {
         } else {
             System.out.println("No missing digit found.");
         }
+
+        if (result != -1) {
+            System.out.println("Missing digit is: " + result);
+        } else {
+            System.out.println("No missing digit found.");
+        }
     }
     
 }
