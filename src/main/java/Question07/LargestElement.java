@@ -10,7 +10,6 @@ public class LargestElement {
         }
         return largest;
     }
-
     public static int ozlemtest(int[] arr) {
         int largest = arr[0];
         for (int num : arr) {
@@ -20,6 +19,15 @@ public class LargestElement {
         }
         return largest;
     }
+
+    public static int yusuftest(int[] arr) {
+        int largest = arr[0];
+        for (int num : arr) {
+            if (num > largest) {
+                largest = num;
+            }
+        }
+        return largest;
     public static int ozlemtest2(int[] arr) {
         int largestq = arr[0];
         for (int numq : arr) {
