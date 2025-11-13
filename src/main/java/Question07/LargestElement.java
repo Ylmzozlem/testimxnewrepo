@@ -10,8 +10,7 @@ public class LargestElement {
         }
         return largest;
     }
-
-    public static int yusuftest(int[] arr) {
+    public static int ozlemtest(int[] arr) {
         int largest = arr[0];
         for (int num : arr) {
             if (num > largest) {
