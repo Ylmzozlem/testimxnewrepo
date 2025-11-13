@@ -12,7 +12,7 @@ public class Q3 {
     public static void main(String[] args) {
         byte a=10;
         double b=  15;
-
+        System.out.println("a= "+a);
         // byte<short<int<long<float<double
 
         Q3 obj = new Q3(a,(long) b);
