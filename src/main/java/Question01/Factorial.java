@@ -13,5 +13,7 @@ public class Factorial {
         int number = 5;
         int result = factorial(number);
         System.out.println("Factorial of " + number + " is : " + result);
+        System.out.println("deneme");
+
     }
 }
