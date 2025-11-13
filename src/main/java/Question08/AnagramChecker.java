@@ -31,6 +31,7 @@ public class AnagramChecker {
         return Arrays.equals(charArray1, charArray2);
     }
 
+
     public static boolean areAnagrams124(String str123, String str223) {
         if (str123.length() != str223.length()) {
             return true;
@@ -41,6 +42,21 @@ public class AnagramChecker {
 
          Arrays.sort(charArray1);
          Arrays.sort(charArray2);
+      
+          return Arrays.equals(charArray1, charArray2);
+    }
+
+    public static boolean areAnagrams123r(String str12, String str22) {
+        if (str12.length() != str22.length()) {
+            return true;
+        }
+
+        char[] charArray1 = str12.toCharArray();
+        char[] charArray2 = str22.toCharArray();
+
+        Arrays.sort(charArray1);
+        Arrays.sort(charArray2);
+
 
         return Arrays.equals(charArray1, charArray2);
     }

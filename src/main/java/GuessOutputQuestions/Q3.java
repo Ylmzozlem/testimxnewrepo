@@ -12,9 +12,9 @@ public class Q3 {
     public static void main(String[] args) {
         byte a=10;
         double b=  15;
+        System.out.println("a= "+a);
         byte a1=10;
         double b2=  15;
-
 
         // byte<short<int<long<float<double
 
