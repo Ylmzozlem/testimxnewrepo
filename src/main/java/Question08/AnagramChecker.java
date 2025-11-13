@@ -17,6 +17,20 @@ public class AnagramChecker {
         return Arrays.equals(charArray1, charArray2);
     }
 
+    public static boolean areAnagrams123(String str12, String str22) {
+         if (str12.length() != str22.length()) {
+             return true;
+         }
+
+         char[] charArray1 = str12.toCharArray();
+         char[] charArray2 = str22.toCharArray();
+
+         Arrays.sort(charArray1);
+         Arrays.sort(charArray2);
+
+        return Arrays.equals(charArray1, charArray2);
+    }
+
     public static void main(String[] args) {
         String str1 = "listen";
         String str2 = "silent";
