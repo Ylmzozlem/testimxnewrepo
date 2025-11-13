@@ -28,6 +28,14 @@ public class LargestElement {
             }
         }
         return largest;
+    public static int ozlemtest2(int[] arr) {
+        int largestq = arr[0];
+        for (int numq : arr) {
+            if (numq > largestq) {
+                largestq = numq;
+            }
+        }
+        return largestq;
     }
     public static void main(String[] args) {
         int[] numbers = {10, 5, 8, 20, 15};
