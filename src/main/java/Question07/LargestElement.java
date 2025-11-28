@@ -20,13 +20,13 @@ public class LargestElement {
         return largest;
     }
 
-    public static int yusuftest(int[] arr) {
+    public static int yusuftest(int[] arr) { //yorum
         int largest = arr[0];
-        for (int num : arr) {
-            if (num > largest) {
-                largest = num;
-            }
-        }
+        for (int num2 : arr) {
+            if (num2 > largest) {
+                largest = num2;
+             }
+         }
         return largest;
     public static int ozlemtest2(int[] arr) {
         int largestq = arr[0];
