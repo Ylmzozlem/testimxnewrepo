@@ -6,6 +6,7 @@ public class Q1 {
         System.out.println("TechPro"+10+20);
     }
     //Deneme yorumu
+    //Deneme yorumu
 }
 
 /*
