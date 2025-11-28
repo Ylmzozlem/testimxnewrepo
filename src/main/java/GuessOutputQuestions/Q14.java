@@ -8,6 +8,8 @@ public class Q14 {
 
         String deneme="";
 
+//Deneme 1 2 3
+        //Deneme 1 2 3
 
         s1.append(s3);
 
