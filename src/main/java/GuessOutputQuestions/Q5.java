@@ -4,6 +4,8 @@ public class Q5 {
     int i;
     int j;
 
+    //Deneme yorumu
+
     Q5(int x, int y){
         i=x;
         j=y;

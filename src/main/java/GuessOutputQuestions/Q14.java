@@ -4,10 +4,12 @@ public class Q14 {
     public static void main(String[] args) {
         StringBuilder s1= new StringBuilder("asapp");
 
-        String s2= "jobsa";
+        String s3= "jobsa";
+
+        String deneme="";
 
 
-        s1.append(s2);
+        s1.append(s3);
 
        s1.substring(4);
 
