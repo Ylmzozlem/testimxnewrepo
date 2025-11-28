@@ -6,7 +6,7 @@ public class Q6 {
         this.i=null;
         System.out.println("Q6 class without parameter constructor"+ i);
     }
-//OZlemden gelen
+//OZlemden gelenvvv
     public static void main(String[] args) {
         Q6 obj = new Q6();
 
